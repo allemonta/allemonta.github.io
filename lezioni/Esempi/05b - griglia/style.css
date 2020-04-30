@@ -1,0 +1,28 @@
+#sezione1 {
+    padding: 30px;
+    background-color: #b3ffb3;
+}
+
+#sezione2 {
+    padding: 30px;
+    background-color: #ffffcc;
+}
+
+#sezione3 {
+    padding: 30px;
+    background-color: #b3d1ff;
+}
+
+#sezione4 {
+    padding: 30px;
+    background-color: #ffcccc;
+}
+
+.immagine {
+    height: 280px;
+    margin-bottom: 30px;
+}
+
+#contenitoreEsterno {
+    margin-top: 30px;
+}
