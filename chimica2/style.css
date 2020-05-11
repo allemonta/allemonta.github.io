@@ -1,0 +1,55 @@
+.testocentrato {
+    text-align: center;
+}
+
+.margine {
+    margin-top: 20px;
+}
+
+.immagine {
+    height: 200px;
+}
+
+.grassetto {
+    font-weight: bold;
+}
+
+.listanonordinata {
+    list-style-type: circle;
+}
+
+.listanonordinata {
+    list-style-type: circle;
+}
+
+#coloredurezza {
+    color: coral;
+}
+
+#coloreresiduo {
+    color: crimson;
+}
+
+#coloreeffetti {
+    color: darkmagenta;
+}
+
+#coloremeta {
+    color: hotpink;
+}
+
+#coloremetalli {
+    color: violet;
+}
+
+
+.titolop{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.immaginep{
+    padding: 30px;
+    height: 500px;
+}
+

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Acqua - IREN </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div class="container">
+
+            <nav class="navbar navbar-expand-sm bg-primary navbar-dark fixed-top">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html"> Home </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="durezza.html"> Durezza </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="residuo.html"> Residuo Fisso </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="metaemoglobinemia.html"> Metaemoglobinemia </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="VS.html"> Rubinetto o bottiglia? </a>
+                  </li>
+                </ul>
+              </nav>
+
+            <div class="contenitoreEsterno" >
+
+            <h1 class="titolo text-center" > L'acqua del mio rubinetto </h1>
+
+            <div class="row" >
+
+                <div class="col-12" id="sezione" >
+                    <img src="img/zona.JPG" class="d-block mx-auto" id="zona" >
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-4 sezione1">
+
+                    <div class="list-group" >
+                        <a href="durezza.html" class="list-group-item"> Durezza </a>
+                        <a href="residuo.html" class="list-group-item"> Residuo fisso </a>
+                        <a href="metaemoglobinemia.html" class="list-group-item"> Metaemoglobinemia </a>
+                    </div>
+                    
+                    <img src="img/versus.jpg" class="mx-auto d-block" id="versus" >
+
+                    <a href="VS.html" > <h5 id="didascalia" class="text-center" > Rubinetto o bottiglia? </h5> </a>
+
+                </div>
+                
+
+                <div class="col-8 sezione2" >
+                    <h2 class="text-center"> Nitriti e nitrati </h2>
+
+                    <h5> 
+                        Semireazione dell'ammonio in nitriti:
+                    </h5>
+
+                    <img src="img/reazione3.JPG" class="immagine" >
+
+                    <h5>
+                        Semireazione dei nitriti in nitrati
+                    </h5>
+
+                    <img src="img/reazione4.JPG" class="immagine" >
+
+                    <p>
+                        La ricerca dell'ammonio si fa a 425 nm perchè si utilizza il reattivo di Nessler
+                        che fa virare il colore della soluzione dal giallo al giallo-arancio. 
+                        <br>
+                        La ricerca dei nitriti si fa a 520 nm perchè si utilizza il reattivo di Griess
+                        che porta alla formazione di un composto di colore rosso.
+                        <br>
+                        La ricerca dei nitrati si fa a 220 nm perchè si analizzano con gli UV.
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="row" >
+
+                <div class="col-8 list-group bordo sezione2" >
+                    <div class="list-group-item" data-toggle="collapse" data-target="#arsenicoInfo"> 
+                        <img src="img/arsenico.JPG" class="immagini" /> Eccesso di arsenico 
+                        <div id="arsenicoInfo" class="collapse">
+                            <p class="giustificato">
+                                A causa degli effetti sulla salute derivanti dall’esposizione cronica è stato classificato 
+                                come elemento cancerogeno. Sono state  evidenziate quattro patologie che presentano un nesso causale 
+                                certo con l’esposizione orale all’arsenico: 
+                                tumori alla vescica, tumori ai polmoni, tumori alla pelle e lesioni cutanee. 
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="list-group-item" data-toggle="collapse" data-target="#ferroInfo"> 
+                        <img src="img/ferro.JPG" class="immagini" /> Eccesso di ferro 
+                        <div id="ferroInfo" class="collapse">
+                            <p class="giustificato">
+                                Dal punto di vista tossicologico l’esposizione acuta a dosi di 200-250 mg/Kg di peso corporeo può essere letale, 
+                                per necrosi emorragica della mucosa intestinale. L’esposizione cronica determina tossicità da accumulo, 
+                                con patologie come l’emocromatosi con gravi danni quali cirrosi epatica, diabete, 
+                                iper ed ipotiroidismo, impotenza nell'uomo, alterazioni mestruali nella donna e 
+                                sterilità in entrambi, scompenso cardiaco e aritmie, artropatie e osteoporosi.  
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="list-group-item" data-toggle="collapse" data-target="#sodioInfo"> 
+                        <img src="img/sodio.JPG" class="immagini" /> Eccesso di sodio 
+                        <div id="sodioInfo" class="collapse">
+                            <p class="giustificato">
+                                Un eccesso nell'organismo può portare a ipernatriemia o ipersodiemia le cui conseguenze sono
+                                l'ipertensione, la cellulite e l'osteoporosi.
+                            </p>    
+                        </div>
+                    </div>
+
+                    <div class="list-group-item" data-toggle="collapse" data-target="#manganeseInfo"> 
+                        <img src="img/manganese.JPG" class="immagini" /> Eccesso di manganese 
+                        <div id="manganeseInfo" class="collapse">
+                            <p class="giustificato">
+                                Gli effetti collaterali si presentano principalmente nelle vie respiratorie e nel cervello. 
+                                I sintomi di avvelenamento da manganese sono allucinazioni, dimenticanza e danni ai nervi. 
+                                Il manganese può anche causare il Parkinson, embolie polmonari e bronchite.
+                            </p>    
+                        </div>
+                    </div>
+                    
+    
+                </div>
+
+                <div class="col-4 bordo sezione1" >
+
+                    <img src="img/iren.jpg" class="mx-auto d-block" id="iren" >
+
+                </div>
+
+
+            </div>    
+           
+
+
+        </div>
+        </div>
+    </body>
+</html>
